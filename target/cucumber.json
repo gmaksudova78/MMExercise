@@ -1,0 +1,100 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "balance-and-should-be-displayed-correctly;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 774943,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "login using provided url and page is loaded",
+            "match": {
+              "location": "SampleSteps.login_using_provided_url_and_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2783207,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Need to verify the right count of values appear on the screen",
+            "match": {
+              "location": "SampleSteps.need_to_verify_the_right_count_of_values_appear_on_the_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Need to verify the values on the screen are greater than 0",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Need to verify the total balance is correct based on the values listed on the screen",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Need to verify the values are formatted as currencies",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11833,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Need to verify the total balance matches the sum of the values",
+            "match": {
+              "location": "SampleSteps.need_to_verify_the_total_balance_matches_the_sum_of_the_values()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Balance and should be displayed correctly",
+    "description": "",
+    "id": "balance-and-should-be-displayed-correctly",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/sample.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
